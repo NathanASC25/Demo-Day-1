@@ -1,2 +1,2 @@
-# Demo-Day-1
-Demo Day Idea
+# Demo Day Project
+Idea: Hurricanes and Global Warming
