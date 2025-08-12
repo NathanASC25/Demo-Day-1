@@ -1,0 +1,85 @@
+/* Styling */
+
+body {
+    background-image: linear-gradient(red, yellow);
+    height: 100vh;
+}
+
+#title p {
+    font-weight: bold;
+    text-decoration: overline underline;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#first-span {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+span div {
+    width: 100vw;
+    margin-right: 30px;
+    color: white;
+    border-style: dashed;
+    text-align: center;
+}
+
+/* This is repetitive. Let's put this in a container */
+
+#homeContent {
+    /* convention is to put display in container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homeContent img {
+    /* For images */
+    /* ok nice color */
+    border-style: double;
+    width: 400px;
+    border-color: purple;
+    padding: 10px;
+    border-width: 10px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+#homeContent p {
+    /* Style the p tag */
+    /* font-size: ; */
+    /* font-family: ; */
+}
+
+#Learn-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#Learn-more a {
+    border-style: dashed;
+    padding: 15px;
+    background-image: linear-gradient(blue, green);
+    /* Extra Code */
+    /* border-style: none;
+    border-width: 10px;
+    border-radius: 100px;
+    padding: 20px 40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    font-weight: italic;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    text-decoration: none; */
+}
+
+#Learn-more button {
+    background-color: red;
+    font-size: 40px;
+    padding: 15px;
+    color: yellow;
+}
