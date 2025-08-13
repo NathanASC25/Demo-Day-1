@@ -1,0 +1,112 @@
+/* Styling */
+
+body {
+    background-image: linear-gradient(red, yellow);
+    height: 100vh;
+}
+
+/* W Flex Direction */
+
+#top_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #FFD700;
+    background-image: linear-gradient(to right, black, purple);
+    margin: 30px;
+}
+
+#title {
+    text-decoration: overline underline;
+    font-size: 50px;
+}
+
+#first-span {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+span div {
+    width: 100vw;
+    margin-right: 30px;
+    color: white;
+    border-style: dashed;
+    text-align: center;
+}
+
+#first-span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* This is repetitive. Let's put this in a container */
+
+#homeContent {
+    /* convention is to put display in container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homeContent img {
+    /* For images */
+    /* ok nice color */
+    border-style: double;
+    width: 400px;
+    border-color: purple;
+    padding: 10px;
+    border-width: 10px;
+    margin: 10px;
+}
+
+#homeContent p {
+    /* Style the p tag */
+    font-size: 30px;
+    font-family: Helvetica;
+}
+
+/* Entire Learn-more id section */
+
+#Learn-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#Learn-more div {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    align-items: center;
+    /* We dont have a border */
+    /* padding: 15px; */
+}
+
+#Learn-more a {
+    width: 50%;
+    border-style: dashed;
+    padding: 15px;
+    background-image: linear-gradient(blue, green);
+    display: flex;
+    justify-content: center;
+    /* Extra Code */
+    /* border-style: none;
+    border-width: 10px;
+    border-radius: 100px;
+    padding: 20px 40px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    font-weight: italic;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    text-decoration: none; */
+}
+
+#Learn-more button {
+    background-color: red;
+    font-size: 40px;
+    padding: 15px;
+    color: yellow;
+}
