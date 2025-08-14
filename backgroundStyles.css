@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(red, orange, yellow);
+    background-image: linear-gradient(#f09892, orange, yellow);
     min-height: 100vh;
 }
 
@@ -55,19 +55,22 @@ img {
 
 /* h1 unless you want to add borders around like buttons*/
 h1 {
+    font-family: Helvetica;
+}
+
+#teamTitle h1 {
     width: 50%;
     display: flex;
-    border-style: solid;
+    border: 5px dashed #4b1670;
     justify-content: center;
-    font-family: Helvetica;
 }
 
 /* A tag decoration and placement */
 
-a {
+/* a {
     display: flex;
     justify-content: center;
-}
+} */
 
 a h2 {
     border-style: solid;
@@ -77,10 +80,66 @@ a h2 {
     font-family: Helvetica;
 }
 
-h3 {
+/* Currently not used */
+
+/* h3 {
     width: 100%;
     display: flex;
     justify-content: center;
     font-family: Helvetica;
+} */
+
+/* Repetitive */
+/* #teamTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutTeam {
+    display: flex;
+    justify-content: center;
+} */
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+}
+
+#backgroundContent {
+    flex-direction: column;
+    align-items: center;
+    color: #4b1670;
+}
+
+#backgroundContent h2 {
+    margin-bottom: 40px;
+    border-style: solid;
+    padding: 15px;
+    width: 70%;
+}
+
+/* Use TBD */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+img {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 10px double #348feb;
+    padding: 10px;
+}
+
+#mission_statement {
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+#mission_paragraph {
+    display: flex;
+    justify-content: center;
 }
 

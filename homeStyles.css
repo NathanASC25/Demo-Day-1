@@ -5,6 +5,10 @@ body {
     min-height: 100vh;
 }
 
+#intro {
+    color: #4b1670;
+}
+
 /* W Flex Direction */
 
 #top_content {
