@@ -52,3 +52,30 @@ a h2 {
 #title {
     font-size: 50px;
 }
+
+#self_advocacy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+#rule_testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#three_minute {
+    text-decoration: underline;
+}
+
+#rule_testimony h2 {
+    width: 50%;
+    border-style: double;
+    border-width: 5px;
+}

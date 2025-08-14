@@ -75,6 +75,11 @@ img {
     text-decoration: underline;
 }
 
+/* I want to add a border */
+#case_study h2 {
+    border-style: solid;
+}
+
 /* Media query */
 /* @media {
 
