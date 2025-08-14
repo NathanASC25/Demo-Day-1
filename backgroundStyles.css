@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(red, yellow);
-    height: 100vh;
+    background-image: linear-gradient(red, orange, yellow);
+    min-height: 100vh;
 }
 
 #top_content {

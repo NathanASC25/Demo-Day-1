@@ -1,8 +1,8 @@
 /* Styling */
 
 body {
-    background-image: linear-gradient(red, yellow);
-    height: 100vh;
+    background-image: linear-gradient(red, orange, yellow);
+    min-height: 100vh;
 }
 
 /* W Flex Direction */
@@ -34,12 +34,28 @@ span div {
     margin-right: 30px;
     color: white;
     border-style: dashed;
+    border-color: yellow;
     text-align: center;
 }
 
 #first-span a {
     text-decoration: none;
     color: white;
+}
+
+/* A tag decoration and placement */
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+a h2 {
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    background-image: linear-gradient(to right, purple, green);
+    width: 70%;
+    font-family: Helvetica;
 }
 
 /* This is repetitive. Let's put this in a container */
